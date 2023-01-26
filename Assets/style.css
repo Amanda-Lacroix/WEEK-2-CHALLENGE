@@ -1,29 +1,49 @@
 * {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
 body {
-    background-color:lightgreen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-color:rgb(215, 218, 215);
+
 }
 
+h1{
+  font-family: "Sofia", sans-serif;
+  font-size: 70px;
+  color: #2ECC71;
+}
+
+header {
+  width: 100%;
+  height: 50%;
+  background: #13293d;
+  color: #2ECC71;
+
+}
+
+#AmandA {
+    width: 10%;
+    height: 15%;
+    border-radius: 50%;
+    border-style:solid;
+    border-color: black;
+    float: left;
+}
 
 .box-style {
     padding: 20px;
-    color:darkorchid;
+    color:black;
     border-width: 5px;
-    border-style: dotted;
+    border-style:groove;
     }
 
 ul {
     top: 0;
     width: 100%;
-    background-color:cornflowerblue;
-    color:black;
-    font-size: 50px;
+    font-size: 30px;
 
   }
 
@@ -32,3 +52,45 @@ ul {
     margin: 0;
     padding: 0;
   }
+
+  .projects {
+    border-style: groove;
+    border-width: 1px;
+    padding: 10px;
+    float: left;
+    width: 25%;
+  }
+  
+  .projects header {
+    padding: 20px;
+  }
+  
+  .projects p {
+    text-align: center;
+  }
+  
+  .projects img {
+    width: 100%;
+  }
+  
+  #projects {
+    text-align: center;
+  }
+
+  @media screen and (max-width: 992px) {
+    .projects {
+      width: 50%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .card.projects {
+      width: 100%;
+    }
+  }
+
+  #contact {
+    text-align: center;
+  }
+
+  
