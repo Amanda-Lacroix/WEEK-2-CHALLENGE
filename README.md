@@ -10,7 +10,7 @@ Open your favourite web browser and follow the link: https://amanda-lacroix.gith
 
 ## Screenshot
 
-
+![screenshot](https://user-images.githubusercontent.com/116973964/214999299-1c41c59f-bd29-42be-a0f4-408b16846ab1.png)
 
 ## License
 
